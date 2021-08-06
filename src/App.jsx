@@ -1,11 +1,31 @@
 import './App.css';
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
+
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import HardSkills from './pages/HardSkills';
+import Projects from './pages/Projects';
+import Page404 from './pages/Page404';
 
 function App() {
   return (
-    <div className="App">
-      <h1>App</h1>
-    </div>
+    <>
+      <header>Aqui vai o header</header>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/hardskills" component={HardSkills} />
+          <Route path="/projects" component={Projects} />
+          <Route path="*" component={Page404} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
