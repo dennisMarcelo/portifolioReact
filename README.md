@@ -22,5 +22,6 @@ Ira rodar os testes utilizando o Jest.
 ### Header
 - [x] O header ficar sempre visivel na página;
 - [] Ele possui um icone e um menu;
-- [] O menu em dispositivos móveis se torna um menu hamburguer, em dispositivos maiores o menu fica expandido.
-- [] O botão fica desabilitado quando estiver na sua respectiva página.
+- [] O menu em dispositivos móveis se torna um menu hamburguer, em dispositivos maiores o menu fica expandido;
+- [] O botão fica desabilitado quando estiver na sua respectiva página;
+- [] Os links de navegação ficão todos no header;
