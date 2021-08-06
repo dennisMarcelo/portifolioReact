@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import HardSkills from './pages/HardSkills';
 import Projects from './pages/Projects';
+import Page404 from './pages/Page404';
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/hardskills" component={HardSkills} />
-          <Route exact path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/hardskills" component={HardSkills} />
+          <Route path="/projects" component={Projects} />
+          <Route path="*" component={Page404} />
         </Switch>
       </Router>
     </>
