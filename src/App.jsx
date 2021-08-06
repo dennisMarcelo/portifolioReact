@@ -11,11 +11,12 @@ import Contact from './pages/Contact';
 import HardSkills from './pages/HardSkills';
 import Projects from './pages/Projects';
 import Page404 from './pages/Page404';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <header>Aqui vai o header</header>
+      <Header />
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
