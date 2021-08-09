@@ -1,0 +1,64 @@
+/* o código aqui em baixo serve somente para criar a animação no botão */
+/* para modificar a posição da onde ele esta basta trocar right por algum outro */
+/* creditos a esse vidio: https://www.youtube.com/watch?v=IGz4BI-aO_8 */
+.menu-controler {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  z-index: 100;
+  right: 25px;
+}
+
+.hamburguer {
+  display:block;
+  background-color: #fff;
+  height: 3px;
+  width: 100%;
+  position: relative;
+  top: 16px;
+  border-radius: 10px;
+  transition: .5s ease-in-out
+}
+
+.hamburguer:before,
+.hamburguer:after {
+  background-color: #fff;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: .5s ease-in-out;
+}
+
+.hamburguer:before {
+  top: -10px
+}
+
+.hamburguer:after {
+  bottom: -10px;
+}
+
+#menu-hamburguer {
+  display: none;
+}
+
+#menu-hamburguer:checked + .hamburguer {
+  transform: rotate(45deg);
+}
+
+#menu-hamburguer:checked + .hamburguer:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+#menu-hamburguer:checked + .hamburguer:after {
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+@media screen and (min-width:769px) {
+  .menu-controler {
+    display:none;
+  }
+}

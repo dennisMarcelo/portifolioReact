@@ -1,10 +1,6 @@
 import './App.css';
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -17,15 +13,13 @@ function App() {
   return (
     <>
       <Header />
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/hardskills" component={HardSkills} />
-          <Route path="/projects" component={Projects} />
-          <Route path="*" component={Page404} />
-        </Switch>
-      </Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/hardskills" component={HardSkills} />
+        <Route path="/projects" component={Projects} />
+        <Route path="*" component={Page404} />
+      </Switch>
     </>
   );
 }

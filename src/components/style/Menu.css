@@ -1,0 +1,43 @@
+.menu-options {
+  margin-right: 20px;    
+}
+
+.menu-options a {
+  color: #ebf2fa;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width:768px) {
+  nav {
+    position: fixed;
+    top: 0px;
+    background-color: #001233;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    transition: .5s ease-in-out;
+  }
+
+  .menu-options {
+    
+    margin-right: 0;  
+  }
+
+  .menu-options a {
+    margin-top: 20px;
+    font-size:1.5em;
+  }
+
+  .close-menu {
+    right: -100%;
+  }
+  
+  .open-menu {
+    right: 0;
+  }
+}
+  

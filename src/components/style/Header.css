@@ -1,0 +1,17 @@
+header {
+  padding-left: 20px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #023e7d;
+}
+
+header img {
+  width: 80px;
+  height: 35px;
+}
+
+.textLogo {
+  color: #fff;
+}

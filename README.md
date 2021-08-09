@@ -22,8 +22,9 @@ Ira rodar os testes utilizando o Jest.
 ### Header
 - [x] O header ficar sempre visivel na página;
 - [x] O header é um component;
-- [ ] Ele possui um icone e um menu;
-- [ ] O menu em dispositivos móveis se torna um menu hamburguer, em dispositivos maiores o menu fica expandido;
+- [x] Ele possui um icone e um menu;
+- [x] O menu em dispositivos móveis se torna um menu hamburguer, em dispositivos maiores o menu fica expandido;
 - [ ] O botão fica desabilitado quando estiver na sua respectiva página;
-- [ ] Os links de navegação ficão todos no header;
-- [ ] O nenu hamburguer mostra os links na vertical, da direita para esquerda com um efeito de slow transitions. 
+- [x] Os links de navegação ficão todos no header;
+- [x] O nenu hamburguer mostra os links na vertical, da direita para esquerda com um efeito de slow transitions.
+- [ ] O header tem icones de redes sociais.
