@@ -57,7 +57,7 @@
   bottom: 0;
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:861px) {
   .menu-controler {
     display:none;
   }
