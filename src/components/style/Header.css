@@ -7,11 +7,12 @@ header {
   background-color: #023e7d;
 }
 
-header img {
-  width: 80px;
-  height: 35px;
-}
-
 .textLogo {
   color: #fff;
+}
+
+@media screen and (min-width:861px){
+  .textLogo {
+    font-size: 3.1em;
+  }
 }
