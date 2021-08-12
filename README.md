@@ -20,11 +20,17 @@ Ira rodar os testes utilizando o Jest.
 - [x] Caso não exista a página deve ser mostrado Page 404.
 
 ### Header
-- [x] O header ficar sempre visivel na página;
+- [x] O header ficar sempre visível na página;
 - [x] O header é um component;
-- [x] Ele possui um icone e um menu;
+- [x] Ele possui um ícone e um menu;
 - [x] O menu em dispositivos móveis se torna um menu hamburguer, em dispositivos maiores o menu fica expandido;
 - [x] O botão fica desabilitado quando estiver na sua respectiva página;
-- [x] Os links de navegação ficão todos no header;
-- [x] O nenu hamburguer mostra os links na vertical, da direita para esquerda com um efeito de slow transitions.
-- [x] O header tem icones de redes sociais.
+- [x] Os links de navegação ficam todos no header;
+- [x] O menu hambúrguer mostra os links na vertical, da direita para esquerda com um efeito de slow transitions.
+- [x] O header tem ícones de redes sociais.
+
+### Page Home
+- [] Na home existe uma foto, nome, profissão, título e resumo.
+- [] as informaçẽos ficam divididas em dois grandes blocos. Um se chama perfil: [foto, nome, profissão], e outro resumo:[título, resumo].
+- [] No mobile perfil fica em cima de resumo.
+- [] No desktop perfil fica ao lado de resumo.
