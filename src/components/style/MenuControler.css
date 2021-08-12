@@ -4,9 +4,13 @@
 .menu-controler {
   width: 35px;
   height: 35px;
-  position: fixed;
+  position: absolute;
   z-index: 100;
   right: 25px;
+}
+
+.fixed-menu {
+  position:fixed;
 }
 
 .hamburguer {

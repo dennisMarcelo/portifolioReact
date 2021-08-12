@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './style/MenuControler.css';
 
-function MenuControler({ changeMenu, isChecked }) {
+function MenuControler({ changeMenu, isChecked, isFixedMenu }) {
   return (
-    <div className="menu-controler">
+    <div className={`menu-controler ${isFixedMenu}`}>
       <label htmlFor="menu-hamburguer">
         <input
           id="menu-hamburguer"
@@ -22,6 +22,7 @@ function MenuControler({ changeMenu, isChecked }) {
 MenuControler.propTypes = {
   changeMenu: PropTypes.func.isRequired,
   isChecked: PropTypes.bool.isRequired,
+  isFixedMenu: PropTypes.string.isRequired,
 };
 
 export default MenuControler;
