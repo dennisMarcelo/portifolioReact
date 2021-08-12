@@ -2,9 +2,9 @@ import React from 'react';
 
 function HardSkills() {
   return (
-    <div className="HardSkills">
+    <main className="HardSkills">
       <h1>Hard-Skills</h1>
-    </div>
+    </main>
   );
 }
 
