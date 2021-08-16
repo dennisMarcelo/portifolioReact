@@ -30,3 +30,23 @@ h5 {
 h6 {
   font-size: 1.5em;
 }
+
+body {
+  background: linear-gradient(45deg, #db3069, #f5d547, #ebebd3, #0A81FF, #3c3c3b);
+  background-size:300% 300%;
+  animation: backgroundGradient 15s ease infinite; ;
+}
+
+@keyframes backgroundGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
