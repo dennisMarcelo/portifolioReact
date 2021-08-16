@@ -5,6 +5,17 @@
   padding: 0;
   font-size: 16px;
   box-sizing: border-box;
+  font-family: 'Libre_Baskerville';
+}
+
+@font-face {
+  font-family: 'Radley';
+  src: url('./fonts/Radley/Radley-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Libre_Baskerville';
+  src: url('./fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf')
 }
 
 h1 {
@@ -34,7 +45,9 @@ h6 {
 body {
   background: linear-gradient(45deg, #db3069, #f5d547, #ebebd3, #0A81FF, #3c3c3b);
   background-size:300% 300%;
-  animation: backgroundGradient 15s ease infinite; ;
+  animation: backgroundGradient 15s ease infinite;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 @keyframes backgroundGradient {
