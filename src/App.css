@@ -6,6 +6,7 @@
   font-size: 16px;
   box-sizing: border-box;
   font-family: 'Libre_Baskerville';
+  color: #262e4b;
 }
 
 @font-face {
@@ -43,8 +44,8 @@ h6 {
 }
 
 body {
-  background: linear-gradient(45deg, #db3069, #f5d547, #ebebd3, #0A81FF, #3c3c3b);
-  background-size:300% 300%;
+  background: linear-gradient(45deg, #db3069, #f5d547, #ebebd3, #0A81FF, #494948);
+  background-size:300% 500%;
   animation: backgroundGradient 15s ease infinite;
   background-repeat: no-repeat;
   min-height: 100vh;
