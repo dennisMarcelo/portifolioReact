@@ -19,6 +19,9 @@ Ira rodar os testes utilizando o Jest.
 - [x] Existe rotas para todas as páginas
 - [x] Caso não exista a página deve ser mostrado Page 404.
 
+### Dados
+- [] Os dados estão todos localizado no provider da aplicação.
+
 ### Header
 - [x] O header ficar sempre visível na página;
 - [x] O header é um component;
@@ -30,7 +33,7 @@ Ira rodar os testes utilizando o Jest.
 - [x] O header tem ícones de redes sociais.
 
 ### Page Home
-- [] Na home existe uma foto, nome, profissão, título e resumo.
-- [] as informaçẽos ficam divididas em dois grandes blocos. Um se chama perfil: [foto, nome, profissão], e outro resumo:[título, resumo].
-- [] No mobile perfil fica em cima de resumo.
-- [] No desktop perfil fica ao lado de resumo.
+- [x] Na home existe uma foto, nome, profissão, título e resumo.
+- [x] as informaçẽos ficam divididas em dois grandes blocos. Um se chama profile: [foto, nome, profissão], e outro about:[título, resumo].
+- [x] No mobile perfil fica em cima de resumo.
+- [x] No desktop perfil fica ao lado de resumo.
