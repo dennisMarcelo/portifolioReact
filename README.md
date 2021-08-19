@@ -20,7 +20,7 @@ Ira rodar os testes utilizando o Jest.
 - [x] Caso não exista a página deve ser mostrado Page 404.
 
 ### Dados
-- [] Os dados estão todos localizado no provider da aplicação.
+- [x] Os dados estão todos localizado no provider da aplicação.
 
 ### Header
 - [x] O header ficar sempre visível na página;
@@ -37,3 +37,13 @@ Ira rodar os testes utilizando o Jest.
 - [x] as informaçẽos ficam divididas em dois grandes blocos. Um se chama profile: [foto, nome, profissão], e outro about:[título, resumo].
 - [x] No mobile perfil fica em cima de resumo.
 - [x] No desktop perfil fica ao lado de resumo.
+
+### Page hard-skills
+- [ ] existe um titulo escrito 'Hard Skills'
+- [ ] existe uma lista de tecnologias de 'front end'
+- [ ] existe uma lista de tecnologias de 'back end'
+- [ ] existe uma lista de tecnologias de 'tests'
+
+### Page projetos
+
+### Page contato
