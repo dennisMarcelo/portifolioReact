@@ -39,11 +39,13 @@ Ira rodar os testes utilizando o Jest.
 - [x] No desktop perfil fica ao lado de resumo.
 
 ### Page hard-skills
-- [ ] Existe um titulo escrito 'Hard Skills'
-- [ ] Existe uma lista de tecnologias de 'front end'
-- [ ] Existe uma lista de tecnologias de 'back end'
-- [ ] Existe uma lista de tecnologias de 'tests'
-- [ ] Cada tópico esta separado em uma div diferentete
+- [x] Existe um titulo escrito 'Hard Skills'
+- [x] Existe uma lista de tecnologias de 'front end'
+- [x] Existe uma lista de tecnologias de 'back end'
+- [x] Existe uma lista de tecnologias de 'tests'
+- [ ] Deixar o visual da página mais bonito.
+- [ ] Em telas maiores existe uma imagem png que representa hardskills
+- [ ] Colocar icone de cada tecnologia.
 
 ### Page projetos
 
