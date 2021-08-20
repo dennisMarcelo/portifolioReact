@@ -48,5 +48,15 @@ Ira rodar os testes utilizando o Jest.
 - [ ] Colocar icone de cada tecnologia.
 
 ### Page projetos
+- [ ] Cada projeto deve ficar separado em DIVs.
+- [ ] Em dispositivos moveis os projetos ficam um em baixo do outro.
+- [ ] Em telas maiores os projetos ficam um do lado do outro máximo de 3 projetos por linha.
+- [ ] Nos cards do projeto deve ter um gif mostrando a funcionalidade do app e titulo.
+- [ ] Em telas menores quando clicar no card deve mostrar: 
+  - descrição do app,
+  - data de conclusão
+  - e um link para acessar o projeto.
+- [ ] Em telas maiores a descrição do projeto deve ser mostrado ao passar o mouse por cima do do titulo.
+
 
 ### Page contato
