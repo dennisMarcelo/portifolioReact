@@ -11,6 +11,35 @@ export default function data() {
       backEnd: ['NodeJs', 'MongoDB', 'Express', 'bcrypt'],
       test: ['jest'],
     },
-    projetos: {},
+    projects: [
+      {
+        title: 'Trivia React',
+        description: 'Jogo de trivia onde o usuário pode escolher a dificuldade, tipo, categoria e quantidade de perguntas. As pegunta tem 30 segundos para ser respondidas e no final é exibido um ranking de melhores pontuações',
+        linkImg: 'https://i.ibb.co/23TCKRz/ezgif-com-gif-maker.gif',
+        linkApp: 'https://sd-010-b-project-trivia-react-redux.vercel.app/',
+        dateConclusion: '06/2021',
+      },
+      {
+        title: 'Trivia React',
+        description: 'Jogo de trivia onde o usuário pode escolher a dificuldade, tipo, categoria e quantidade de perguntas. As pegunta tem 30 segundos para ser respondidas e no final é exibido um ranking de melhores pontuações',
+        linkImg: 'https://i.ibb.co/23TCKRz/ezgif-com-gif-maker.gif',
+        linkApp: 'https://sd-010-b-project-trivia-react-redux.vercel.app/',
+        dateConclusion: '06/2021',
+      },
+      {
+        title: 'Trivia React',
+        description: 'Jogo de trivia onde o usuário pode escolher a dificuldade, tipo, categoria e quantidade de perguntas. As pegunta tem 30 segundos para ser respondidas e no final é exibido um ranking de melhores pontuações',
+        linkImg: 'https://i.ibb.co/23TCKRz/ezgif-com-gif-maker.gif',
+        linkApp: 'https://sd-010-b-project-trivia-react-redux.vercel.app/',
+        dateConclusion: '06/2021',
+      },
+      {
+        title: 'Trivia React',
+        description: 'Jogo de trivia onde o usuário pode escolher a dificuldade, tipo, categoria e quantidade de perguntas. As pegunta tem 30 segundos para ser respondidas e no final é exibido um ranking de melhores pontuações',
+        linkImg: 'https://i.ibb.co/23TCKRz/ezgif-com-gif-maker.gif',
+        linkApp: 'https://sd-010-b-project-trivia-react-redux.vercel.app/',
+        dateConclusion: '06/2021',
+      },
+    ],
   };
 }
