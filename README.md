@@ -39,24 +39,24 @@ Ira rodar os testes utilizando o Jest.
 - [x] No desktop perfil fica ao lado de resumo.
 
 ### Page hard-skills
-- [x] Existe um titulo escrito 'Hard Skills'
+- [x] Existe um título escrito 'Hard Skills'
 - [x] Existe uma lista de tecnologias de 'front end'
 - [x] Existe uma lista de tecnologias de 'back end'
 - [x] Existe uma lista de tecnologias de 'tests'
 - [ ] Deixar o visual da página mais bonito.
 - [ ] Em telas maiores existe uma imagem png que representa hardskills
-- [ ] Colocar icone de cada tecnologia.
+- [ ] Colocar ícone de cada tecnologia.
 
 ### Page projetos
 - [ ] Cada projeto deve ficar separado em DIVs.
-- [ ] Em dispositivos moveis os projetos ficam um em baixo do outro.
+- [ ] Em dispositivos móveis os projetos ficam um embaixo do outro.
 - [ ] Em telas maiores os projetos ficam um do lado do outro máximo de 3 projetos por linha.
-- [ ] Nos cards do projeto deve ter um gif mostrando a funcionalidade do app e titulo.
+- [ ] Nos cards do projeto deve ter um gif mostrando a funcionalidade do app e título.
 - [ ] Em telas menores quando clicar no card deve mostrar: 
   - descrição do app,
   - data de conclusão
   - e um link para acessar o projeto.
-- [ ] Em telas maiores a descrição do projeto deve ser mostrado ao passar o mouse por cima do do titulo.
+- [ ] Em telas maiores a descrição do projeto deve ser mostrado ao passar o mouse por cima do  título.
 
 
 ### Page contato
