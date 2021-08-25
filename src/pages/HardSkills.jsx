@@ -8,7 +8,7 @@ function HardSkills() {
 
   const Li = (arraySkills) => (
     <>
-      {arraySkills.map((ele) => <li>{ele}</li>)}
+      {arraySkills.map((ele) => <li key={ele}>{ele}</li>)}
     </>
   );
 
