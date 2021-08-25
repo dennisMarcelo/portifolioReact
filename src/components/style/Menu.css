@@ -52,7 +52,8 @@ a.activated {
   }
 
   .menu-options {
-    margin-right: 0;  
+    margin-right: 0;
+    z-index: 100;
   }
 
   .menu-options a {
