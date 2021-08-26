@@ -1,12 +1,13 @@
 *,
-*:after,
-*:before {
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   font-size: 16px;
   box-sizing: border-box;
   font-family: 'Libre_Baskerville';
   color: #262e4b;
+  
 }
 
 @font-face {
