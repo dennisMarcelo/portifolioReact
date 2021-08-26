@@ -8,15 +8,17 @@ function Projects() {
   const cards = () => (
     <>
       {projects.map(({
-        title, linkImg, description, dateConclusion, linkApp,
+        title, linkImg, description, date, linkApp, status,
       }) => (
         <div className="card" key={title}>
           <img src={linkImg} alt={`Projeto ${title}`} />
           <div className="card-info">
             <h1>{title}</h1>
             <p>{description}</p>
-            <span>{`Finalizado: ${dateConclusion}`}</span>
-            <a className="button-visit" href={linkApp} target="_blank" rel="noreferrer">visitar</a>
+            <div className="visit">
+              <span className="project-status">{`${status}: ${date}`}</span>
+              <a className="button-visit" href={linkApp} target="_blank" rel="noreferrer">Visitar</a>
+            </div>
           </div>
         </div>
       ))}

@@ -12,7 +12,7 @@
   margin: 10px auto;
 }
 
-.card{
+.card {
   width: 90%;
   max-width:430px;
   margin: 10px;
@@ -20,6 +20,12 @@
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   z-index: 0;
   border-radius: 10px;
+  overflow: hidden;
+  transition: transform 500ms ease
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
@@ -30,16 +36,34 @@
   border-radius: 10px;
 }
 
+.card:hover .card-info{
+  transform: translateY(0)
+}
+
 .card-info {
   font-size: 10px;
+  min-height: 224px;
   position: absolute;
   bottom: 0;
   padding: 10px;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
   border-radius: 0 0 10px 10px;
-  background: rgba(0, 0, 0, 0.329);
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.5) 20%,
+    hsl(0 0% 0% / 1)
+  );
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  transform: translateY(82%);
+  transition: transform 1.2s ease;
 }
+
+.card-info > h1 {
+  margin-bottom: 5px;
+  width: 100%;
+  height: min-content;
+} 
 
 .card-info p,
 .card-info h1,
@@ -47,3 +71,27 @@
 .card-info span {
   color: rgb(255, 255, 255)
 }
+
+.button-visit {
+  background-color: #1B2845;
+  text-decoration: none;
+  padding: 0.3em 1em;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.button-visit:hover,
+.button-visit:focus{
+  background-color: #3d60ac;
+}
+
+.visit {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+/* css card from here: https://www.youtube.com/watch?v=5DEq5cWNYt8 */
