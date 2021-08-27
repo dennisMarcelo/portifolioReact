@@ -53,6 +53,7 @@
 .card-info {
   font-size: 10px;
   min-height: 224px;
+  width: 100%;
   position: absolute;
   bottom: 0;
   padding: 10px;
