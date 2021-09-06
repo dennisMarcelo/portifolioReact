@@ -1,7 +1,5 @@
 .contact {
-  /* background-color: yellow; */
   width: 100%;
-
 }
 
 .contact h1 {
@@ -10,7 +8,6 @@
 }
 
 .contact form{
-  /* background-color: yellow; */
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
