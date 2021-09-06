@@ -52,7 +52,7 @@ Ira rodar os testes utilizando o Jest.
 - [x] Em dispositivos móveis os projetos ficam um embaixo do outro.
 - [x] Em telas maiores os projetos ficam um do lado do outro máximo de 3 projetos por linha.
 - [x] Nos cards do projeto deve ter um gif mostrando a funcionalidade do app e título.
-- [ ] Quando clicar no card deve mostrar:
+- [x] Quando clicar no card deve mostrar:
   - descrição do app,
   - data de conclusão
   - e um link para acessar o projeto.
