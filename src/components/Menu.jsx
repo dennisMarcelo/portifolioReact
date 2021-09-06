@@ -25,12 +25,12 @@ function Menu({ isOpen }) {
         Projetos
       </NavLink>
 
-      <NavLink
+      {/* <NavLink
         className={pathname === '/hardskills' ? 'activated' : ''}
         to="/hardskills"
       >
         Hard Skills
-      </NavLink>
+      </NavLink> */}
 
       <NavLink
         className={pathname === '/contact' ? 'activated' : ''}
