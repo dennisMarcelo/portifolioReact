@@ -83,18 +83,7 @@
   color: rgb(255, 255, 255)
 }
 
-.button-visit {
-  background-color: #1B2845;
-  text-decoration: none;
-  padding: 0.3em 1em;
-  cursor: pointer;
-  border-radius: 0.5rem;
-}
 
-.button-visit:hover,
-.button-visit:focus{
-  background-color: #3d60ac;
-}
 
 .visit {
   height: 35px;

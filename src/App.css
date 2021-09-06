@@ -10,6 +10,39 @@
   
 }
 
+
+textarea, 
+textarea:focus, 
+input,
+input:focus, 
+select, 
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+button,
+button:hover, 
+button:focus, 
+button:acitive {
+  background-color: none;
+  border: none
+}
+
+.button {
+  background-color: #1B2845;
+  text-decoration: none;
+  padding: 0.3em 1em;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.button:hover,
+.button:focus{
+  background-color: #3d60ac;
+}
+
 @font-face {
   font-family: 'Radley';
   src: url('./fonts/Radley/Radley-Regular.ttf')
