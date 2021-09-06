@@ -57,5 +57,11 @@ Ira rodar os testes utilizando o Jest.
   - data de conclusão
   - e um link para acessar o projeto.
 
-
 ### Page contato
+- [x] Deve ter um titúlo 'contato'.
+- [x] Deve ter um formulário.
+- [x] Dentro do formulário deve ter:
+- Um campo de imput de tipo texto com placeholder nome.
+- Um campo de imput de tipo email com placeholder email.
+- Um campo de imput de tipo textarea com label area.
+- Um botão de submit com texto enviar.
