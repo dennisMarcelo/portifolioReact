@@ -1,8 +1,9 @@
 import React from 'react';
+import './style/Contact.css';
 
 function Contact() {
   return (
-    <main className="Contact">
+    <main className="contact">
       <h1>Contato</h1>
 
       <form action="#">
@@ -27,7 +28,7 @@ function Contact() {
           required
         />
 
-        <button type="submit" className="">Eviar</button>
+        <button type="submit" className="button">Eviar</button>
       </form>
     </main>
   );

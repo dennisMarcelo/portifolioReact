@@ -36,7 +36,7 @@ function Projects() {
             <p>{formartDescription(description)}</p>
             <div className="visit">
               <span className="project-status">{`${status}: ${date}`}</span>
-              <a className="button-visit" href={linkApp} target="_blank" rel="noreferrer">Visitar</a>
+              <a className="button" href={linkApp} target="_blank" rel="noreferrer">Visitar</a>
             </div>
           </div>
         </div>
