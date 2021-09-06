@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portifolioReact/static/css/main.7f88272f.chunk.css",
+    "main.js": "/portifolioReact/static/js/main.87a01798.chunk.js",
+    "main.js.map": "/portifolioReact/static/js/main.87a01798.chunk.js.map",
+    "runtime-main.js": "/portifolioReact/static/js/runtime-main.142c8c07.js",
+    "runtime-main.js.map": "/portifolioReact/static/js/runtime-main.142c8c07.js.map",
+    "static/js/2.131f6077.chunk.js": "/portifolioReact/static/js/2.131f6077.chunk.js",
+    "static/js/2.131f6077.chunk.js.map": "/portifolioReact/static/js/2.131f6077.chunk.js.map",
+    "index.html": "/portifolioReact/index.html",
+    "static/css/main.7f88272f.chunk.css.map": "/portifolioReact/static/css/main.7f88272f.chunk.css.map",
+    "static/js/2.131f6077.chunk.js.LICENSE.txt": "/portifolioReact/static/js/2.131f6077.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portifolioReact/static/media/Radley-Regular.007f49fd.ttf",
+    "static/media/instagram quadrado 256.baf231c8.png": "/portifolioReact/static/media/instagram quadrado 256.baf231c8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.142c8c07.js",
+    "static/js/2.131f6077.chunk.js",
+    "static/css/main.7f88272f.chunk.css",
+    "static/js/main.87a01798.chunk.js"
+  ]
+}
