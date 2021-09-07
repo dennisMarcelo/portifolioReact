@@ -1,22 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style/Contact.css';
 
 function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [text, setText] = useState('');
+
+  const sendEmail = async (event) => {
+    const url = 'https://portifolio-dms-backend.herokuapp.com/sendToMe';
+    const requestData = {
+      method: 'POST',
+      body: JSON.stringify({ name, email, text }),
+      headers: new Headers({
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      }),
+    };
+
+    const response = await fetch(url, requestData);
+    if (Number(response.status) === 200) {
+      setName('');
+      setEmail('');
+      setText('');
+      // eslint-disable-next-line no-alert
+      window.alert('Email enviado com sucesso!');
+    } else {
+      // eslint-disable-next-line no-alert
+      window.alert('Não foi possivel enviar o email, tente novamente mais tarde.');
+    }
+
+    event.preventDefault();
+  };
+
   return (
     <main className="contact">
       <h1>Contato</h1>
 
-      <form action="#">
+      <form onSubmit={sendEmail}>
         <input
           type="text"
           placeholder="Nome e Sobrenome"
-          required
           maxLength="50"
           minLength="3"
+          onChange={({ target: { value } }) => setName(value)}
+          value={name}
+          required
         />
         <input
           type="email"
           placeholder="Email"
+          onChange={({ target: { value } }) => setEmail(value)}
+          value={email}
           required
         />
 
@@ -25,6 +59,8 @@ function Contact() {
           rows="4"
           placeholder="Digite aqui sua mensagem."
           maxLength="500"
+          onChange={({ target: { value } }) => setText(value)}
+          value={text}
           required
         />
 
@@ -35,3 +71,5 @@ function Contact() {
 }
 
 export default Contact;
+
+// Como fazer fetch: https://pt.stackoverflow.com/questions/455083/react-fetch-post
