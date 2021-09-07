@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portifolioReact/static/css/main.7f88272f.chunk.css",
-    "main.js": "/portifolioReact/static/js/main.8d474192.chunk.js",
-    "main.js.map": "/portifolioReact/static/js/main.8d474192.chunk.js.map",
+    "main.js": "/portifolioReact/static/js/main.76464cb1.chunk.js",
+    "main.js.map": "/portifolioReact/static/js/main.76464cb1.chunk.js.map",
     "runtime-main.js": "/portifolioReact/static/js/runtime-main.ab8b846a.js",
     "runtime-main.js.map": "/portifolioReact/static/js/runtime-main.ab8b846a.js.map",
-    "static/js/2.0dba66dd.chunk.js": "/portifolioReact/static/js/2.0dba66dd.chunk.js",
-    "static/js/2.0dba66dd.chunk.js.map": "/portifolioReact/static/js/2.0dba66dd.chunk.js.map",
+    "static/js/2.7cb745e5.chunk.js": "/portifolioReact/static/js/2.7cb745e5.chunk.js",
+    "static/js/2.7cb745e5.chunk.js.map": "/portifolioReact/static/js/2.7cb745e5.chunk.js.map",
     "index.html": "/portifolioReact/index.html",
     "static/css/main.7f88272f.chunk.css.map": "/portifolioReact/static/css/main.7f88272f.chunk.css.map",
-    "static/js/2.0dba66dd.chunk.js.LICENSE.txt": "/portifolioReact/static/js/2.0dba66dd.chunk.js.LICENSE.txt",
+    "static/js/2.7cb745e5.chunk.js.LICENSE.txt": "/portifolioReact/static/js/2.7cb745e5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portifolioReact/static/media/Radley-Regular.007f49fd.ttf",
     "static/media/instagram quadrado 256.baf231c8.png": "/portifolioReact/static/media/instagram quadrado 256.baf231c8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ab8b846a.js",
-    "static/js/2.0dba66dd.chunk.js",
+    "static/js/2.7cb745e5.chunk.js",
     "static/css/main.7f88272f.chunk.css",
-    "static/js/main.8d474192.chunk.js"
+    "static/js/main.76464cb1.chunk.js"
   ]
 }
