@@ -17,13 +17,15 @@ function Contact() {
       }),
     };
 
-    const response = await fetch(url, requestData);
-    if (Number(response.status) === 200) {
+    const response = await fetch(url, requestData)
+      .then((res) => res.json());
+
+    if (response.message === 'Mensasgem enviado com sucesso!') {
+      // eslint-disable-next-line no-alert
+      window.alert(response.message);
       setName('');
       setEmail('');
       setText('');
-      // eslint-disable-next-line no-alert
-      window.alert('Email enviado com sucesso!');
     } else {
       // eslint-disable-next-line no-alert
       window.alert('Não foi possivel enviar o email, tente novamente mais tarde.');
