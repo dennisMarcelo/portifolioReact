@@ -36,3 +36,6 @@ function HardSkills() {
 }
 
 export default HardSkills;
+
+// criar graficoss
+// https://www.youtube.com/watch?v=l0K95at8BVg
