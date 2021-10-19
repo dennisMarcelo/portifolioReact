@@ -1,37 +1,32 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { useContext } from 'react';
+import { Bar } from 'react-chartjs-2';
 import Context from '../provider/Context';
 import './style/HardSkills.css';
 
 function HardSkills() {
   const { dataUser: { hardSkills } } = useContext(Context);
 
-  const Li = (arraySkills) => (
-    <>
-      {arraySkills.map((ele) => <li key={ele}>{ele}</li>)}
-    </>
+  console.log(hardSkills);
+
+  const chartGraphic = () => (
+    hardSkills.map(({ data, options }) => (
+      <div className="skills" key={options.plugins.title.text}>
+        <Bar data={data} options={options} />
+      </div>
+    ))
   );
 
   return (
-    <main className="HardSkills">
-      <h1 className="hardSkills-title">Tecnologias mais utilizadas</h1>
-      <div className="skills">
-        <ul className="front-end">
-          <h4>Front End</h4>
-          {hardSkills !== undefined ? Li(hardSkills.frontEnd) : ''}
-        </ul>
+    <div className="HardSkills">
+      <h1 className="hardSkills-title">Tecnologias que eu mais utilizo</h1>
 
-        <ul className="back-end">
-          <h4>Back End</h4>
-          {hardSkills !== undefined ? Li(hardSkills.backEnd) : ''}
-        </ul>
+      <div className="hardSkills-group">
+        {hardSkills !== undefined ? chartGraphic() : ''}
 
-        <ul className="test">
-          <h4>Tests</h4>
-          {hardSkills !== undefined ? Li(hardSkills.test) : ''}
-        </ul>
       </div>
-    </main>
+
+    </div>
   );
 }
 
