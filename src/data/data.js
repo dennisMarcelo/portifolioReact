@@ -9,15 +9,15 @@ export default function data() {
     hardSkills: [
       {
         area: 'Fron-end',
-        tools: [{ type: 'JavaScritp', value: 10 }, { type: 'HTML', value: 7 }, { type: 'CSS', value: 7 }, { type: 'React', value: 8 }],
+        tools: [{ type: 'JavaScritp', value: 36 }, { type: 'HTML', value: 30 }, { type: 'CSS', value: 30 }, { type: 'React', value: 6 }],
       },
       {
         area: 'Back-end',
-        tools: [{ type: 'NodeJs', value: 10 }, { type: 'MongoDB', value: 8 }, { type: 'MySql', value: 6 }],
+        tools: [{ type: 'NodeJs', value: 12 }, { type: 'MongoDB', value: 7 }, { type: 'MySql', value: 6 }],
       },
       {
         area: 'Tests',
-        tools: [{ type: 'Jest', value: 7 }, { type: 'mocha', value: 10 }, { type: 'Chai', value: 5 }, { type: 'Sinon', value: 4 }],
+        tools: [{ type: 'Jest', value: 5 }, { type: 'mocha', value: 3 }, { type: 'Chai', value: 3 }, { type: 'Sinon', value: 3 }],
       },
     ],
     projects: [
