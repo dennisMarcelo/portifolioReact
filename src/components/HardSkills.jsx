@@ -7,8 +7,6 @@ import './style/HardSkills.css';
 function HardSkills() {
   const { dataUser: { hardSkills } } = useContext(Context);
 
-  console.log(hardSkills);
-
   const chartGraphic = () => (
     hardSkills.map(({ data, options }) => (
       <div className="skills" key={options.plugins.title.text}>
