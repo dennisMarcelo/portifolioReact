@@ -8,16 +8,16 @@ export default function data() {
     },
     hardSkills: [
       {
-        area: 'Tests',
-        tools: [{ type: 'Jest', value: 7 }, { type: 'mocha', value: 10 }, { type: 'Chai', value: 5 }, { type: 'Sinon', value: 4 }],
+        area: 'Fron-end',
+        tools: [{ type: 'JavaScritp', value: 10 }, { type: 'HTML', value: 7 }, { type: 'CSS', value: 7 }, { type: 'React', value: 8 }],
       },
       {
         area: 'Back-end',
         tools: [{ type: 'NodeJs', value: 10 }, { type: 'MongoDB', value: 8 }, { type: 'MySql', value: 6 }],
       },
       {
-        area: 'Fron-end',
-        tools: [{ type: 'JavaScritp', value: 10 }, { type: 'HTML', value: 7 }, { type: 'CSS', value: 7 }, { type: 'React', value: 8 }],
+        area: 'Tests',
+        tools: [{ type: 'Jest', value: 7 }, { type: 'mocha', value: 10 }, { type: 'Chai', value: 5 }, { type: 'Sinon', value: 4 }],
       },
     ],
     projects: [
