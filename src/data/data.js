@@ -4,13 +4,22 @@ export default function data() {
       imgURL: 'https://i.ibb.co/R7jqnFW/37647447.jpg',
       name: 'Dennis Marcelo',
       specialty: 'Desenvolvedor Full-Stack',
-      resume: ['Atualmente estudo na Trybe onde busco me tornar full-stack utilizando tecnologias como JavaScript, React, nodeJs, mongoDB e Python. Na Trybe também busco desenvolver habilidades  sociocomportamentais e metodologias ágeis como scrum e kanban.', 'Sou formado em análise e desenvolvimento de sistema pela universidade Estácio, apaixonado por tecnologia e pela praticidade e comodidade que elas nos proporcionam, pelo mesmo motivo decidi me tornar desenvolvedor.'],
+      resume: ['Atualmente estudo na Trybe onde busco me tornar full-stack utilizando tecnologias como JavaScript, React, nodeJs, mongoDB e Python.', 'Sou formado em análise e desenvolvimento de sistema pela universidade Estácio, apaixonado por tecnologia e pela praticidade e comodidade que elas nos proporcionam, pelo mesmo motivo decidi me tornar desenvolvedor.'],
     },
-    hardSkills: {
-      frontEnd: [' HTML', 'CSS', 'JavaScritp', 'React'],
-      backEnd: ['NodeJs', 'MongoDB', 'Express', 'bcrypt'],
-      test: ['jest'],
-    },
+    hardSkills: [
+      {
+        area: 'Tests',
+        tools: [{ type: 'Jest', value: 7 }, { type: 'mocha', value: 10 }, { type: 'Chai', value: 5 }, { type: 'Sinon', value: 4 }],
+      },
+      {
+        area: 'Back-end',
+        tools: [{ type: 'NodeJs', value: 10 }, { type: 'MongoDB', value: 8 }, { type: 'MySql', value: 6 }],
+      },
+      {
+        area: 'Fron-end',
+        tools: [{ type: 'JavaScritp', value: 10 }, { type: 'HTML', value: 7 }, { type: 'CSS', value: 7 }, { type: 'React', value: 8 }],
+      },
+    ],
     projects: [
       {
         title: 'Trivia React',
