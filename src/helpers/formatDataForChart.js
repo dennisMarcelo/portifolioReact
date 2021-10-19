@@ -14,8 +14,11 @@ function formatDataForChart(data) {
         labels: dataFormated.labels,
         datasets: [
           {
+            label: 'Meses utilizando',
             data: dataFormated.data,
             backgroundColor: dataFormated.backgroundColor,
+            borderRadius: 25,
+            borderSkipped: false,
           },
         ],
       },
