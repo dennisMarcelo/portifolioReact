@@ -38,15 +38,6 @@ Ira rodar os testes utilizando o Jest.
 - [x] No mobile perfil fica em cima de resumo.
 - [x] No desktop perfil fica ao lado de resumo.
 
-### Page hard-skills
-- [x] Existe um título escrito 'Hard Skills'
-- [x] Existe uma lista de tecnologias de 'front end'
-- [x] Existe uma lista de tecnologias de 'back end'
-- [x] Existe uma lista de tecnologias de 'tests'
-- [ ] Deixar o visual da página mais bonito.
-- [ ] Em telas maiores existe uma imagem png que representa hardskills
-- [ ] Colocar ícone de cada tecnologia.
-
 ### Page projetos
 - [x] Cada projeto deve ficar separado em DIVs.
 - [x] Em dispositivos móveis os projetos ficam um embaixo do outro.
@@ -65,3 +56,11 @@ Ira rodar os testes utilizando o Jest.
 - Um campo de imput de tipo email com placeholder email.
 - Um campo de imput de tipo textarea com label area.
 - Um botão de submit com texto enviar.
+
+### Componente hard-skills
+- [x] Existe um título escrito 'Hard Skills'
+- [x] Existe uma lista de tecnologias de 'front end'
+- [x] Existe uma lista de tecnologias de 'back end'
+- [x] Existe uma lista de tecnologias de 'tests'
+- [x] Deixar o visual da página mais bonito.
+- [x] existe um gráfico mostranto o tempo que é utilzado a tecnologia.
