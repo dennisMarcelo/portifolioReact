@@ -1,0 +1,31 @@
+.HardSkills{
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+
+.skills {
+  width: 45%;
+  margin: 10px auto;
+}
+
+.hardSkills-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (min-width:860px) {
+  .HardSkills {
+    padding-top: 60px
+  }
+}
+
+@media screen and (max-width:860px) {
+  .skills {
+    width: 90%;
+    margin: 30px auto;
+  }
+}

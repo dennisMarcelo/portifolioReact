@@ -6,11 +6,20 @@ export default function data() {
       specialty: 'Desenvolvedor Full-Stack',
       resume: ['Atualmente estudo na Trybe onde busco me tornar full-stack utilizando tecnologias como JavaScript, React, nodeJs, mongoDB e Python.', 'Sou formado em análise e desenvolvimento de sistema pela universidade Estácio, apaixonado por tecnologia e pela praticidade e comodidade que elas nos proporcionam, pelo mesmo motivo decidi me tornar desenvolvedor.'],
     },
-    hardSkills: {
-      frontEnd: [' HTML', 'CSS', 'JavaScritp', 'React'],
-      backEnd: ['NodeJs', 'MongoDB', 'Express', 'bcrypt'],
-      test: ['jest'],
-    },
+    hardSkills: [
+      {
+        area: 'Fron-end',
+        tools: [{ type: 'JavaScritp', value: 36 }, { type: 'HTML', value: 30 }, { type: 'CSS', value: 30 }, { type: 'React', value: 6 }],
+      },
+      {
+        area: 'Back-end',
+        tools: [{ type: 'NodeJs', value: 12 }, { type: 'MongoDB', value: 7 }, { type: 'MySql', value: 6 }],
+      },
+      {
+        area: 'Tests',
+        tools: [{ type: 'Jest', value: 5 }, { type: 'mocha', value: 3 }, { type: 'Chai', value: 3 }, { type: 'Sinon', value: 3 }],
+      },
+    ],
     projects: [
       {
         title: 'Trivia React',

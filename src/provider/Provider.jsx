@@ -2,13 +2,18 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import data from '../data/data';
 import Context from './Context';
+import formatDataForChart from '../helpers/formatDataForChart';
 
 export default function Provider({ children }) {
   const [dataUser, setDataUser] = useState({});
 
   // aqui futuramente os dados vão vir da API:
   useEffect(() => {
-    setDataUser(data);
+    setDataUser({
+      home: data().home,
+      projects: data().projects,
+      hardSkills: formatDataForChart(data().hardSkills),
+    });
   }, []);
 
   const context = {

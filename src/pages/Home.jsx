@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import './style/Home.css';
 import Context from '../provider/Context';
+import HardSkills from '../components/HardSkills';
 
 function Home() {
   const { dataUser: { home } } = useContext(Context);
@@ -22,16 +23,19 @@ function Home() {
   );
 
   return (
-    <main className="Home">
-      <div className="profile">
-        {home !== undefined ? profile() : ''}
+    <main>
+      <div className="Home">
+        <div className="profile">
+          {home !== undefined ? profile() : ''}
+        </div>
+        <div className="about">
+          <h1>Sobre mim</h1>
+          <ul>
+            {home !== undefined ? resume() : ''}
+          </ul>
+        </div>
       </div>
-      <div className="about">
-        <h1>Sobre mim</h1>
-        <ul>
-          {home !== undefined ? resume() : ''}
-        </ul>
-      </div>
+      <HardSkills />
     </main>
   );
 }
