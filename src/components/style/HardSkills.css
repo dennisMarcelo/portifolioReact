@@ -1,29 +1,31 @@
 .HardSkills{
-  width: 100%;
-  padding-top: 10px
-}
-
-.hardSkills-title {
   text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 100px;
 }
 
 .skills {
-  width: 80%;
-  margin: 20px auto;
+  width: 45%;
+  margin: 10px auto;
 }
 
-.skills ul {
-  margin: 20px 0;
+.hardSkills-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.skills ul li {
-  margin-left: 30px;
-  font-size: 1.4em;
-  letter-spacing: 2px;
-}
 
 @media screen and (min-width:860px) {
   .HardSkills {
     padding-top: 60px
+  }
+}
+
+@media screen and (max-width:860px) {
+  .skills {
+    width: 90%;
+    margin: 30px auto;
   }
 }
