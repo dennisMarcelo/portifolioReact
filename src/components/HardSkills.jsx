@@ -21,7 +21,6 @@ function HardSkills() {
 
       <div className="hardSkills-group">
         {hardSkills !== undefined ? chartGraphic() : ''}
-
       </div>
 
     </div>
