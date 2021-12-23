@@ -1,9 +1,19 @@
-import React, { useContext } from 'react';
-import Context from '../provider/Context';
+import React, { useEffect, useState } from 'react';
+import { useHistory } from 'react-router-dom';
+import Loding from '../components/Loding';
 import './style/Projects.css';
 
 function Projects() {
-  const { dataUser: { projects } } = useContext(Context);
+  const [projects, setProjects] = useState(undefined);
+  const history = useHistory();
+
+  useEffect(() => {
+    const url = 'https://portifolio-dms-backend.herokuapp.com/projects';
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => setProjects(data))
+      .catch(({ message }) => history.push(`/error/${message}`));
+  }, []);
 
   const formartTitle = (string) => {
     let title = string;
@@ -48,7 +58,7 @@ function Projects() {
     <main className="Projects">
       <h1>Projetos</h1>
       <div className="project-cards">
-        {projects !== undefined ? cards() : ''}
+        {projects !== undefined ? cards() : <Loding />}
       </div>
     </main>
   );
