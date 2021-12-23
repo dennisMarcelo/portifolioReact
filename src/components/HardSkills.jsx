@@ -1,11 +1,22 @@
-/* eslint-disable react/destructuring-assignment */
-import React, { useContext } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Bar } from 'react-chartjs-2';
-import Context from '../provider/Context';
+import { useHistory } from 'react-router-dom';
+import formatDataForChart from '../helpers/formatDataForChart';
+import Loding from './Loding';
 import './style/HardSkills.css';
 
 function HardSkills() {
-  const { dataUser: { hardSkills } } = useContext(Context);
+  // const { dataUser: { hardSkills } } = useContext(Context);
+  const [hardSkills, setHardSkills] = useState(undefined);
+  const history = useHistory();
+
+  useEffect(() => {
+    const url = 'https://portifolio-dms-backend.herokuapp.com/hardSkills';
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => setHardSkills(formatDataForChart(data)))
+      .catch(({ message }) => history.push(`/error/${message}`));
+  }, []);
 
   const chartGraphic = () => (
     hardSkills.map(({ data, options }) => (
@@ -17,11 +28,12 @@ function HardSkills() {
 
   return (
     <div className="HardSkills">
-      <h1 className="hardSkills-title">Tecnologias que eu mais utilizo</h1>
-
-      <div className="hardSkills-group">
-        {hardSkills !== undefined ? chartGraphic() : ''}
-      </div>
+      {hardSkills === undefined ? <Loding /> : (
+        <>
+          <h1 className="hardSkills-title">Tecnologias que eu mais utilizo</h1>
+          <div className="hardSkills-group">{chartGraphic() }</div>
+        </>
+      )}
 
     </div>
   );
