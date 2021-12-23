@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Page404 from './pages/Page404';
 import Header from './components/Header';
+import PageError from './pages/PageError';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={Contact} />
           <Route path="/projects" component={Projects} />
+          <Route path="/error/:message" component={PageError} />
           <Route path="*" component={Page404} />
         </Switch>
       </Provider>
