@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import gifErro from '../imgs/gifErro.gif';
+import './style/PageError.css';
 
 function PageError() {
   const { message } = useParams();
