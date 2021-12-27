@@ -8,13 +8,12 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  max-width: 1400px;
   margin: 10px auto;
 }
 
 .card {
-  width: 90%;
-  max-width:430px;
+  width: 40%;
+  min-width: 320px;
   margin: 10px;
   position: relative;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
