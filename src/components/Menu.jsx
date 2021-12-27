@@ -55,7 +55,7 @@ function Menu({ isOpen }) {
           <img className="icon" src={linkedin} alt="linkedin" />
         </a>
         <a
-          href="https://www.instagram.com/dms.im410/"
+          href="https://www.instagram.com/dms.is410/"
           target="_blank"
           rel="noreferrer"
         >
