@@ -5,7 +5,7 @@ import './style/PageCatWorking.css';
 function PageCatWorking() {
   return (
     <div className="working">
-      <h1>Nosso estágiarios já estão trabalhando nisso.</h1>
+      <h1>Nossos estágiarios já estão trabalhando nisso.</h1>
       <img src={catWorking} alt="cat working in computer" />
     </div>
   );
